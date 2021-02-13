@@ -11,7 +11,7 @@ RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean 
 
 ### In this exercise, we will try to predict whether a passenger on the Titanic would have survived or not.
 
-## Top score on kaggle: :trophy: 
+## :trophy:  Ur top score on kaggle: 
 
 #### 0.79186 with a Support Vector Classification
 
