@@ -1,4 +1,17 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt 
+
+
+
+
+
+
 def collectNames(dataframe):
+        import numpy as np
+        import pandas as pd
+
         columns = list(dataframe.columns)
         return columns 
        
@@ -10,7 +23,8 @@ def collectgraph(dataframe, columns):
     #necessary Packages 
     import matplotlib.pyplot as plt 
     import seaborn as sns
-    
+    import numpy as np
+    import pandas as pd
     #Scaling is needed correctly show all variables distribution at the same time -> Scaling prep
     from sklearn.preprocessing import StandardScaler, MinMaxScaler
     
@@ -45,8 +59,7 @@ def collectgraph(dataframe, columns):
     ax1[0].set_title('Original Distributions')
     ax1[1].set_title('Heatmap Correlation')
     
-    ds_map = sns.kdeplot(data = tempdf,ax=ax1[0], legend=True, multiple="stack",fill=True, Alpha=.3, linewidth=0)
-    ns_heatmap = sns.heatmap(tempdf.corr(),ax=ax1[1], annot=True, center=0);
+
     pp_map = sns.pairplot(dataframe, diag_kind='kde',hue='Survived')
 
    
@@ -56,5 +69,7 @@ def collectgraph(dataframe, columns):
 
     
 def buildgraph(dataframe):
+    import numpy as np
+    import pandas as pd
     columns = collectNames(dataframe)
     collectgraph(dataframe, columns)
