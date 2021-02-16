@@ -33,7 +33,7 @@ RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean 
 
 ## Team :two_men_holding_hands:
     
-![AgneseGit](https://img.shields.io/badge/Agnese-Git-blue&?style=plastic&logo=github&?labelColor=grey&?logoWidth=200&?link=LINK/left&link=LINK/right)
+![AgneseGit](https://img.shields.io/badge/Agnese-Git-blue&?style=plastic&logo=github&?labelColor=grey&?logoWidth=200&?link=https://github.com/comicodex/left&link=https://github.com/comicodex/right)
 
 ![GyasiGit](https://img.shields.io/badge/Gyasi-Git-blue&?style=plastic&logo=github&?labelColor=grey&?logoWidth=200&?link=https://github.com/gyasis/left&link=https://github.com/gyasis/right)
 
